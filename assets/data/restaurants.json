@@ -1,0 +1,194 @@
+[{
+  "id": "1",
+  "name": "chicken currycut skinless with liver",
+  "minDeliveryTime": 25,
+  "maxDeliveryTime": 35,
+  "image": "https://imgur.com/tCJ9VPJ.jpg",
+  "dishes": [
+    {
+      "name": "HALF KG",
+      "description": "freshlycut hygienic skinoff chicken with 1 piece liver.",
+      "price": 120
+    },
+    {
+      "name": "1 KG",
+      "description": "freshlycut hygienic skinoff chicken with 1 piece liver",
+      "price": 205
+    },
+    {
+      "name": "1.5 KG",
+      "description": "freshlycut hygienic skinoff chicken with 2 piece liver",
+      "price": 290
+    },
+    {
+      "name": "2 KG",
+      "description": "freshlycut hygienic skinoff chicken with 2 piece liver",
+      "price": 375
+    },
+    {
+      "name": "2.5 KG",
+      "description": "freshlycut hygienic skinoff chicken with 3 piece liver",
+      "price": 460
+    },
+    {
+      "name": "3 KG",
+      "description": "freshlycut hygienic skinoff chicken with 3 piece liver",
+      "price": 545
+    },
+    {
+      "name": "3.5 KG",
+      "description": "freshlycut hygienic skinoff chicken with 3 piece liver",
+      "price": 630
+    },
+    {
+      "name": "4 KG",
+      "description": "freshlycut hygienic skinoff chicken with 4 piece liver",
+      "price": 720
+    }
+  ]
+}, {
+  "id": "2",
+  "name": "chicken currycut skinless without liver",
+  "minDeliveryTime": 25,
+  "maxDeliveryTime": 35,
+  "image": "https://imgur.com/cy2S75c.jpg",
+  "dishes": [
+    {
+      "name": "HALF KG",
+      "description": "freshlycut hygienic skinoff chicken without liver.",
+      "price": 6.9
+    },
+    {
+      "name": "1 KG",
+      "description": "freshlycut hygienic skinoff chicken without liver",
+      "price": 8.90
+    },
+    {
+      "name": "1.5 KG",
+      "description": "freshlycut hygienic skinoff chicken without liver",
+      "price": 5.40
+    },
+    {
+      "name": "2 KG",
+      "description": "freshlycut hygienic skinoff chicken without liver",
+      "price": 5.90
+    },
+    {
+      "name": "2.5 KG",
+      "description": "freshlycut hygienic skinoff chicken without liver",
+      "price": 7.90
+    },
+    {
+      "name": "3 KG",
+      "description": "freshlycut hygienic skinoff chicken without liver",
+      "price": 7.90
+    },
+    {
+      "name": "3.5 KG",
+      "description": "freshlycut hygienic skinoff chicken without liver",
+      "price": 7.90
+    },
+    {
+      "name": "4 KG",
+      "description": "freshlycut hygienic skinoff chicken without liver",
+      "price": 7.90
+    }
+  ]
+}, {
+  "id": "3",
+  "name": "chicken currycut withskin with liver",
+  "minDeliveryTime": 20,
+  "maxDeliveryTime": 30,
+  "image": "https://imgur.com/3fHKf7H.jpg",
+  "dishes": [
+    {
+      "name": "HALF KG",
+      "description": "freshlycut hygienic withskin chicken with 1 piece liver.",
+      "price": 6.9
+    },
+    {
+      "name": "1 KG",
+      "description": "freshlycut hygienic withskin chicken with 1 piece liver",
+      "price": 8.90
+    },
+    {
+      "name": "1.5 KG",
+      "description": "freshlycut hygienic withskin chicken with 2 piece liver",
+      "price": 5.40
+    },
+    {
+      "name": "2 KG",
+      "description": "freshlycut hygienic withskin chicken with 2 piece liver",
+      "price": 5.90
+    },
+    {
+      "name": "2.5 KG",
+      "description": "freshlycut hygienic withskin chicken with 3 piece liver",
+      "price": 7.90
+    },
+    {
+      "name": "3 KG",
+      "description": "freshlycut hygienic withskin chicken with 3 piece liver",
+      "price": 7.90
+    },
+    {
+      "name": "3.5 KG",
+      "description": "freshlycut hygienic withskin chicken with 3 piece liver",
+      "price": 7.90
+    },
+    {
+      "name": "4 KG",
+      "description": "freshlycut hygienic withskin chicken with 4 piece liver",
+      "price": 7.90
+    }
+  ]
+}, {
+  "id": "4",
+  "name": "chicken currycut withskin without liver",
+  "minDeliveryTime": 30,
+  "maxDeliveryTime": 40,
+  "image": "https://imgur.com/TU7IfWY.jpg",
+  "dishes": [
+    {
+      "name": "HALF KG",
+      "description": "freshlycut hygienic withskin chicken without liver.",
+      "price": 6.9
+    },
+    {
+      "name": "1 KG",
+      "description": "freshlycut hygienic withskin chicken without liver",
+      "price": 8.90
+    },
+    {
+      "name": "1.5 KG",
+      "description": "freshlycut hygienic withskin chicken without liver",
+      "price": 5.40
+    },
+    {
+      "name": "2 KG",
+      "description": "freshlycut hygienic withskin chicken without liver",
+      "price": 5.90
+    },
+    {
+      "name": "2.5 KG",
+      "description": "freshlycut hygienic withskin chicken without liver",
+      "price": 7.90
+    },
+    {
+      "name": "3 KG",
+      "description": "freshlycut hygienic withskin chicken without liver",
+      "price": 7.90
+    },
+    {
+      "name": "3.5 KG",
+      "description": "freshlycut hygienic withskin chicken without liver",
+      "price": 7.90
+    },
+    {
+      "name": "4 KG",
+      "description": "freshlycut hygienic withskin chicken without liver",
+      "price": 7.90
+    }
+  ]
+}
+]

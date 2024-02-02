@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-srijachicken-staging-113107-authRole",
+      "UnauthRoleArn": "arn:aws:iam::639905881849:role/amplify-srijachicken-staging-113107-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::639905881849:role/amplify-srijachicken-staging-113107-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-srijachicken-staging-113107-deployment",
+      "UnauthRoleName": "amplify-srijachicken-staging-113107-unauthRole",
+      "StackName": "amplify-srijachicken-staging-113107",
+      "StackId": "arn:aws:cloudformation:ap-south-1:639905881849:stack/amplify-srijachicken-staging-113107/b9abd700-b8ed-11ed-b41e-0610c15b6a8c",
+      "AmplifyAppId": "d3bern9wntr0d7"
+    },
+    "categories": {
+      "auth": {
+        "SrijaChicken": {}
+      }
+    }
+  }
+}

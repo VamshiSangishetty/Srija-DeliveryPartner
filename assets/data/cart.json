@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "quantity": 1,
+    "weight":"1",
+    "amount":125,
+    "item": {
+      "id": "1",
+      "title": "Chicken Currycut skinless without liver",
+      "image": "https://imgur.com/cy2S75c.jpg",
+      "price": 125
+    }
+  },
+  {
+    "id": "2",
+    "quantity": 2,
+    "weight":"1/2",
+    "amount":80,
+    "item": {
+      "id": "2",
+      "title": "chicken currycut withskin without liver",
+      "image": "https://imgur.com/TU7IfWY.jpg",
+      "price": 125
+    }
+  },
+  {
+    "id": "3",
+    "quantity": 1,
+    "weight": "3",
+    "amount":315,
+    "item": {
+      "id": "5",
+      "title": "chicken currycut withskin with liver",
+      "image": "https://imgur.com/3fHKf7H.jpg",
+      "price": 125
+        }
+  }
+]

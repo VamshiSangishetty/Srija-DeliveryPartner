@@ -1,0 +1,69 @@
+type DeliveryPartner @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  phoneNumber: String!
+  sub: String!
+}
+
+type OrderProduct {
+  id: String
+  weight: Float!
+  amount: Int!
+  productName: String!
+  ProductImage: String
+  orderID: String
+}
+
+type CartProduct @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  weight: Float!
+  amount: Int!
+  userSub: String
+  productName: String
+  productImage: String
+}
+
+enum OrderStatus {
+  NEW
+  CUTTING
+  ON_THE_WAY
+  DELIVERED
+  READY_FOR_PICKUP
+}
+
+type Order @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  customerID: ID! @index(name: "byCustomer")
+  total: Int!
+  status: OrderStatus!
+  orderItems: [OrderProduct!]
+  latitude: Float
+  longitude: Float
+  dpName: String
+  dpPhone: String
+}
+
+type Customer @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  phoneNumber: String!
+  street: String!
+  landmark: String!
+  pincode: String!
+  lat: Float!
+  lng: Float!
+  Orders: [Order] @hasMany(indexName: "byCustomer", fields: ["id"])
+  flatNo: String!
+  sub: String!
+}
+
+type Product @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  image: String!
+  description: String
+  weights: [Float!]
+  price: Int
+  isAvailable: Boolean
+}
+ 
